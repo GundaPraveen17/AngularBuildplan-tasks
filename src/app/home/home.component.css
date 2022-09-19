@@ -1,0 +1,13 @@
+.container{
+    background-color: rgb(57, 57, 87);
+    height:auto;
+    width:30vw;
+    border-radius: 20px;
+    padding: 10px;
+}
+.textarea{
+    text-align: center;
+    width: 60px;
+    text-decoration: cornsilk;
+    
+}

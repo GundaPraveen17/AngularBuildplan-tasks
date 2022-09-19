@@ -1,0 +1,6 @@
+
+
+<p style="text-align: center;  color:cornflowerblue;">Mysore-faculaity Details</p>
+<h5 style="text-align: left;" *ngFor = 'let mysoreFacuality of facualitydetails'>
+    <li *ngIf = "mysoreFacuality.workLocation =='Mysore'">{{mysoreFacuality.facultyId}} {{mysoreFacuality.facultyName}}</li>
+</h5>

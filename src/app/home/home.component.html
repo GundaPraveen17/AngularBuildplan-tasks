@@ -1,0 +1,20 @@
+
+<div class="container">
+
+    <h3 style="text-align: center; color: blue;">CART</h3>
+
+    <div>
+        <button class="fa fa-minus" type="button" (click) = "minus()">-</button>
+        <input type="text" id="quantity" [value]="quantity" class="textarea">
+        <button class="fa fa-plus" type="button" (click)="plus()">+</button>
+        <h2> Price: {{value | currency:"INR"}}</h2>
+
+    </div>
+</div>
+<div>
+    <h3 style="text-align: center; color: blue;">Empolyee Names</h3>
+    <p *ngFor = "let emp of empolyees" style="text-align: center;">{{emp.name}}</p>
+    
+    <h3 style="text-align: center; color: blue;">Above 20000 salaries List</h3>
+    
+</div>

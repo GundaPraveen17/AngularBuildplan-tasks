@@ -1,0 +1,10 @@
+.container{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: crimson;
+    text-align: center;
+}
+.a{
+    padding: 10px;
+    color: blueviolet;
+}
