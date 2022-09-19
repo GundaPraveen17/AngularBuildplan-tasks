@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../data.service';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -6,13 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  empolyees=[{name:"Praveen", designation:"Manager", Salary:10000},
-{name:"Raju", designation:"Asst Manager", Salary:20000},
-{name:"ramprasad", designation:"Engineer", Salary:25000},
-{name:"Swathi", designation:"Sr Engineer", Salary:25000},
-{name:"vasinavi", designation:"Asst Manager", Salary:25000}
-]
-  constructor() { }
+
+ 
+
+
+
   ngOnInit(): void {
   }
   

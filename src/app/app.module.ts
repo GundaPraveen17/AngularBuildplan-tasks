@@ -9,6 +9,7 @@ import { CustomerdetailsComponent } from './customerdetails/customerdetails.comp
 import { FaculaityComponent } from './faculaity/faculaity.component';
 import { BangloreFaculaityComponent } from './banglore-faculaity/banglore-faculaity.component';
 import { MysoreFaculaityComponent } from './mysore-faculaity/mysore-faculaity.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MysoreFaculaityComponent } from './mysore-faculaity/mysore-faculaity.co
     CustomerdetailsComponent,
     FaculaityComponent,
     BangloreFaculaityComponent,
-    MysoreFaculaityComponent
+    MysoreFaculaityComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

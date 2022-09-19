@@ -11,6 +11,13 @@ export class DataService {
 
   constructor( private http: HttpClient) { }
 
+  getUserdetails1(){
+    return this.http.get("jsonplaceholder.typicode.com/users");
+  }
+  
+  
+
+
   facalityData(){
     return [
     {"facultyId":101,"facultyName":"Vivek","facultyMobile":"9998887771","facultyEmail":"vivek@abc.com","highestQualification":"Dr","workLocation":"Mysore"},
@@ -22,6 +29,9 @@ export class DataService {
     {"facultyId":107,"facultyName":"Bharath","facultyMobile":"7876527713","facultyEmail":"bharath@abc.com","highestQualification":"ME","workLocation":"Bangalore"},
     {"facultyId":108,"facultyName":"Thiruppathi","facultyMobile":"9894147084","facultyEmail":"thiruppathi@abc.com","highestQualification":"ME","workLocation":"Mysore"}
     ]}
-    
+
+
+
   }
+  
 
